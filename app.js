@@ -1,4 +1,4 @@
-//  This is to show a basic JS file without using Modules   
+//  This then converts the basic JS Node file (app2.js) to a Node app using a Module. Take a part of the code, put in separate module, import back in with require function     
 
 const rect = require('./rectangle');   
 

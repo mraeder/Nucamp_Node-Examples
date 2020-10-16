@@ -1,9 +1,12 @@
 //  This is to show a basic JS file without using Modules   
 
-const rect = {    // create an object rect, give it 2 methods perimeter and area 
-    perimeter: (x, y) => 2 * (x + y),  // takes 2 values, x and y 
-    area: (x, y) => x * y          // return product of those values
-};
+//   const rect = {    // create an object rect, give it 2 methods perimeter and area 
+  //    perimeter: (x, y) => 2 * (x + y),  // takes 2 values, x and y 
+  //    area: (x, y) => x * y          // return product of those values
+//   };
+
+const rect = require('./rectangle2'); // to change to using modules, delete const rect above. File knows to look in same folder as itself to look for JS file named rectangle2
+        // relative filepath. Take exports from that file and set them as properties/methods of rect object 
 
 function solveRect(l, w) {    // define a function to use the rect object, pass in 2 values l and w
     console.log(`Solving for rectangle with dimensions: ${l}, ${w}`);  // log values of l and w to console using backticks for template literals (not quote marks)
