@@ -1,3 +1,5 @@
+// This is a basic JS file without using Modules 
+
 const rect = require('./rectangle');
 
 function solveRect(l, w) {
