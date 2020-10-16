@@ -1,4 +1,4 @@
-// This is a basic JS file without using Modules 
+//  This is a basic JS file without using Modules   
 
 const rect = require('./rectangle');
 
