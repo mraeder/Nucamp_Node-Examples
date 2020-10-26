@@ -7,7 +7,7 @@ const locations = ['Bellingham', 'Marysville', 'Seattle', 'Tacoma', 'Spokane'];
 
 const generateMessage = generate;  // assign it as the value for const generateMessage.
 
-//create a server object:
+// creating a server object:
 http
   .createServer(function(req, res) {
     res.write(generateMessage(locations)); //write a response to the client
