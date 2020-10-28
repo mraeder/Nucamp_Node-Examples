@@ -11,8 +11,7 @@ function solveRect(l, w) {
             console.log(`Perimeter of rectangle with dimensions ${l}, ${w} is: ${rectangle.perimeter()}`);  // using empty parameter lists 
         }
     });
-    console.log('This statement is logged after the call to rect()');  // code will call function in rectangle module, if 
-                                                                       //  zero or less, will run an error message right away. If valid, module will run callback after 2 seconds. Timer phase, then callback which will solve for/console log area and perim
+    console.log('This statement is logged after the call to rect()');  // code will call function in rectangle module, if zero or less, will run an error message right away. If valid, module will run callback after 2 seconds. Timer phase, then callback which will solve for/console log area and perim
 }
 
 //  call this function to test it, we'll test 4 times 

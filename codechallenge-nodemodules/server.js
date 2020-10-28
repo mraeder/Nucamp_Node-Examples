@@ -11,6 +11,6 @@ const generateMessage = generate;  // assign it as the value for const generateM
 http
   .createServer(function(req, res) {
     res.write(generateMessage(locations)); //write a response to the client
-    res.end(); //end the response
+    res.end(); // end the response
   })
-  .listen(8080); //the server object listens on port 8080
+  .listen(8080); // the server object listens on port 8080
