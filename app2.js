@@ -24,3 +24,5 @@ solveRect(2, 4);    // these are valid arguments; should return no error
 solveRect(3, 5);    // these are valid arguments; should return no error
 solveRect(0, 5);    // these are INvalid arguments; should return error
 solveRect(5, -3);   // these are INvalid arguments; should return error
+
+// With Node support for asynchronous computations, asynch functions can take their own time to finish and return their results, while the main computation can proceed forward. Once asynch func finished, return to main computation thread using a callback. This is a common pattern.   
